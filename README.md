@@ -118,7 +118,7 @@ Este processo assegura que as comparações sejam coerentes e justificadas, fort
 > ⚠️**Nota:** 
 As justificativas das Comparações pareadas podem ser encontradas dentro de cada planilha e refletem adequadamente, de forma transparente, as coparações pareadas definidas no estudo.
 
-### Construção da matriz de julgamentos \( A \)
+### Construção da matriz de julgamentos  $A$
 
 Figura 2: Comparação pareada entre os critério
 
@@ -136,12 +136,34 @@ Para critérios $i$ e $j$:
 O Calculo dos pesos/prioridades, segue as seguintes etapas:
 
 - Calcular a soma de cada coluna $S_{\text{j}}$ da matriz de julgamentos:
+  
+    $$S_j = \sum_{i=1}^{n} a_{ij}$$
 
-  **Exemplo:**
-   **$S1 = 1 + \dfrac{1}{3} + \dfrac{1}{2} + 2 + 4 = 7.8333$:**
+     **Exemplo para $S_{\text{1}}$:**
+  
+    **$S1 = 1 + \dfrac{1}{3} + \dfrac{1}{2} + 2 + 4 = 7.8333$:**
 
 - Normalização dos elementos da matriz, dividindo cada elemento pela soma correspondente à sua coluna. Esse procedimento resulta em uma nova matriz normalizada $N$, na qual os elementos de cada
 coluna somam 1.
-- Cálculo da média aritmética de cada linha da matriz normalizada. A soma dos pesos de todos os critérios deve ser igual a 1 (ou 100%)
+
+  $n_{\text{ij}} = \dfrac{a_{\text{ij}}}{S_{\text{j}}}$
+
+  **Exemplo para $n_{\text{11}}$:**
+
+   **$n_{\text{11}} = \dfrac{1}{7.8333} ≈ 0.1277$**
+
+- Cálculo da média aritmética (Pesos $w_{\text{i}}$) de cada linha da matriz normalizada. A soma dos pesos de todos os critérios deve ser igual a 1 (ou 100%)
+
+   **$w_{\text{i}} = \dfrac{\sum_{i=1}^{n} n_{ij}}{n} = \dfrac{1}{n}\sum_{i=1}^{n} n_{ij}$**
+
+  **Exemplo para $w_{\text{1}}$:**
+
+  $w_{\text{1}} = \dfrac{1}{5}(n_{11} + n_{12} + n_{13} + n_{14} + n_{15}) = 0.1412$
+
+  Figra 3: Calculo de pesos de críterios
+
+  <img src="images/Calculo_dos_pesos.png" alt="Calculo de pesos de críterios}">
+  
+### Verificação da consistência
 
 </details>
