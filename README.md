@@ -155,6 +155,8 @@ coluna somam 1.
 - Cálculo da média aritmética (Pesos $w_{\text{i}}$) de cada linha da matriz normalizada. A soma dos pesos de todos os critérios deve ser igual a 1 (ou 100%)
 
    **$w_{\text{i}} = \dfrac{\sum_{i=1}^{n} n_{ij}}{n} = \dfrac{1}{n}\sum_{i=1}^{n} n_{ij}$**
+  
+  - $n$ é o numero total dos critérios.
 
   **Exemplo para $w_{\text{1}}$:**
 
@@ -165,5 +167,10 @@ coluna somam 1.
   <img src="images/Calculo_dos_pesos.png" alt="Calculo de pesos de críterios}">
   
 ### Verificação da consistência
+Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_máx$, o Índice de Consistência (IC) e a Razão de Consistência (RC).
 
+- Cálculo do Vetor de Consistência:
+  Multiplicamos a matriz de julgamentos $A$ pelo vetor de pesos $w$:
+              $C = A x w$
+  
 </details>
