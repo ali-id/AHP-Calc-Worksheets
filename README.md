@@ -189,6 +189,7 @@ Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_{\
 - Cálculo da Razão de Consistência ($RC$):
   
   **$RC = \dfrac{IC}{IR}$**
+  
   Onde:
   
     - $IR$ é o Índice de Consistência Aleatório, que depende do número de critérios $n$ (valores tabelados).
