@@ -173,5 +173,28 @@ Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_{\
   Multiplicamos a matriz de julgamentos $A$ pelo vetor de pesos $w$:
   
   $C = A * w$
+- Cálculo de $λ_{\text{máx}}$:
+  Calculamos o valor de $λ_{\text{máx}}$ usando:
+
+  **$λ_{\text{máx}} = \dfrac{λ_{\text{máx} - n} - n}{n - 1}$**
   
+  Onde:
+    - $C_{\text{i}}$ é o $i$-ésimo elemento do vetor $C$.
+    - $w_{\text{i}$ é o peso do critério $i$.
+      
+- Cálculo do Índice de Consistência ($IC$):
+  
+  **$IC = \dfrac{1}{n}\sum_{i=1}^{n} \dfrac{C_{\text{i}}}{w_{\text{i}}$**
+  
+- Cálculo da Razão de Consistência ($RC$):
+  
+  **$RC = \dfrac{IC}{IR}$**
+  Onde:
+  
+    - $IR$ é o Índice de Consistência Aleatório, que depende do número de critérios $n$ (valores tabelados).
+  **$Interpretação:$**
+
+    - Se $RC < 0,1$, a consistência é aceitável.
+    - Se  $RC \geq 0,1$,  a matriz de julgamentos pode ser considerada inconsistente e os julgamentos devem ser revisados.
+
 </details>
