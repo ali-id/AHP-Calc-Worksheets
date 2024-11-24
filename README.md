@@ -120,9 +120,9 @@ As justificativas das Comparações pareadas podem ser encontradas dentro de cad
 
 ### Construção da matriz de julgamentos  $A$
 
-Figura 2: Comparação pareada entre os critério
+Figura 2: Matriz de julgamentos
 
-<img src="images/matriz_de_julgamento.png" alt="Comparação paraeada conforeme a escala de Saaty">
+<img src="images/matriz_de_julgamento.png" alt="Matriz de julgamentos">
 
 Confome mostrado na Figura 2: 
 Os elementos da diagonal da matriz são sempre igual a 1, (Ex. NVI = NVI = 1).
