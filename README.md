@@ -172,6 +172,6 @@ Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_m�
 - Cálculo do Vetor de Consistência:
   Multiplicamos a matriz de julgamentos $A$ pelo vetor de pesos $w$:
   
-              $C = A * w$
+  $C = A * w$
   
 </details>
