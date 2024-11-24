@@ -193,6 +193,10 @@ Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_{\
   Onde:
   
     - $IR$ é o Índice de Consistência Aleatório, que depende do número de critérios $n$ (valores tabelados).
+      | $IR$  |   0  |   0  | 0,58 | 0,90 | 1,12 | 1,24 | 1,32 | 1,41 | 1,54 | 1,49 |
+      |-------|------|------|------|------|------|------|------|------|------|------|
+      |  $n$  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |  10  |
+      
   **$Interpretação:$**
 
     - Se $RC < 0,1$, a consistência é aceitável.
