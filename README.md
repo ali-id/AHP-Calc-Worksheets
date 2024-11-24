@@ -172,7 +172,7 @@ Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_{\
 - Cálculo do Vetor de Consistência:
   Multiplicamos a matriz de julgamentos $A$ pelo vetor de pesos $w$:
   
-   **$C_{\text{i}} = \sum_{j=1}^{n} a_{ij}} * w_{j}$**
+   **$C_{\text{i}} = \sum_{j=1}^{n} a_{ij} * w_{j}$**
   
 - Cálculo de $λ_{\text{máx}}$:
   Calculamos o valor de $λ_{\text{máx}}$ usando:
