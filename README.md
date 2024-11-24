@@ -180,11 +180,11 @@ Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_{\
   
   Onde:
     - $C_{\text{i}}$ é o $i$-ésimo elemento do vetor $C$.
-    - $w_{\text{i}$ é o peso do critério $i$.
+    - $w_{\text{i}}$ é o peso do critério $i$.
       
 - Cálculo do Índice de Consistência ($IC$):
   
-  **$IC = \dfrac{1}{n}\sum_{i=1}^{n} \dfrac{C_{\text{i}}}{w_{\text{i}}$**
+  **$IC = \dfrac{1}{n}\sum_{i=1}^{n} \dfrac{C_{\text{i}}}{w_{\text{i}}}$**
   
 - Cálculo da Razão de Consistência ($RC$):
   
