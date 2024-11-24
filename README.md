@@ -167,7 +167,7 @@ coluna somam 1.
   <img src="images/Calculo_dos_pesos.png" alt="Calculo de pesos de críterios}">
   
 ### Verificação da consistência
-Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_(máx)$, o Índice de Consistência (IC) e a Razão de Consistência (RC).
+Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_{\text{máx}}$, o Índice de Consistência (IC) e a Razão de Consistência (RC).
 
 - Cálculo do Vetor de Consistência:
   Multiplicamos a matriz de julgamentos $A$ pelo vetor de pesos $w$:
