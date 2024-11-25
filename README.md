@@ -214,6 +214,7 @@ As ferramentas são classificadas em estrelas com base nas suas pontuações $P_
   Seja:
   - $P_{\text{máx}} = max{P_1,P_2,...,P_m}$ (maior pontuação entre todas as ferramentas).
   - Os intervalos de classificação podem ser definidos proporcionalmente a $P_{\text{máx}}$.
+    
   **Definição dos Intervalos:**
 
     - 5 Estrelas: $P_k \geq 0{,}9 \times P_{\text{máx}}$.
