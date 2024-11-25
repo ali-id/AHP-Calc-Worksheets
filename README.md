@@ -207,4 +207,19 @@ A pontuação total $P_{\text{k}}$ de cada ferramenta $k$ é calculada multiplic
 
  **$P_{\text{k}} = \sum_{j=1}^{n} u_{ik} * w_{j}$**
 
+### Classificação de Ferramentas em Estrelas de 1 a 5
+
+As ferramentas são classificadas em estrelas com base nas suas pontuações $P_{\text{k}}$, utilizando intervalos definidos.
+
+  Seja:
+  - $P_{\text{máx}} = max{P_1,P_2,...,P_m}$ (maior pontuação entre todas as ferramentas).
+  - Os intervalos de classificação podem ser definidos proporcionalmente a $P_{\text{máx}}$.
+  **Definição dos Intervalos:**
+
+    - 5 Estrelas: $P_k \geq 0{,}9 \times P_{\text{máx}}$.
+    - 4 Estrelas: $0{,}7 \times P_{\text{máx}} \leq P_k < 0{,}9 \times P_{\text{máx}}$.
+    - 3 Estrelas: $0{,}5 \times P_{\text{máx}} \leq P_k < 0{,}7 \times P_{\text{máx}}$.
+    - 2 Estrelas: $0{,}3 \times P_{\text{máx}} \leq P_k < 0{,}5 \times P_{\text{máx}}$
+    - 1 Estrela: $P_k < 0{,}3 \times P_{\text{máx}}$.
+
 </details>
