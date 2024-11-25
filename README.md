@@ -203,7 +203,7 @@ Para garantir a validade dos julgamentos na matriz, calculamos o valor de $λ_{\
     - Se  $RC \geq 0,1$,  a matriz de julgamentos pode ser considerada inconsistente e os julgamentos devem ser revisados.
       
 ### Cálculo da Pontuação de Cada Ferramenta
-A pontuação total $P_{\text{k}}$ de cada ferramenta $k$ é calculada multiplicando-se o valor  $u_{\text{ik}}$ de cada métrica $i$ da ferramenta pelo peso $w_{\text{i}} do critério correspondente e somando todos os produtos:
+A pontuação total $P_{\text{k}}$ de cada ferramenta $k$ é calculada multiplicando-se o valor  $u_{\text{ik}}$ de cada métrica $i$ da ferramenta pelo peso $w_{\text{i}}$ do critério correspondente e somando todos os produtos:
 
  **$P_{\text{k}} = \sum_{j=1}^{n} u_{ik} * w_{j}$**
 
