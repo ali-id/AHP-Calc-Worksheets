@@ -1,4 +1,4 @@
-🚧 ### README.md em construção 🚧
+## 🚧 README.md em construção 🚧
 **Este documento está sendo ativamente desenvolvido e atualizado.**
 ## Sobre o Projeto
 
