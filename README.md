@@ -1,3 +1,5 @@
+🚧 ### README.md em construção 🚧
+**Este documento está sendo ativamente desenvolvido e atualizado.**
 ## Sobre o Projeto
 
 Este estudo combina uma revisão bibliográfica sistemática com pesquisa aplicada para avaliar ferramentas de análise de vulnerabilidades em imagens Docker.
